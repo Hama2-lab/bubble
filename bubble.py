@@ -11,20 +11,20 @@ def bubblesort():
     if b == 0:
       for i in range(0,a):
         for j in range(0,a):
-          if x[i]>=x[j]:
+          if x[i] >= x[j]:
             continue
           else:
-            x[i],x[j]=x[j],x[i]
+            x[i],x[j] = x[j],x[i]
       print(x)
 
     # 降順
     elif b == 1:
       for i in range(0,a):
         for j in range(0,a):
-          if x[i]<=x[j]:
+          if x[i] <= x[j]:
             continue
           else:
-            x[i],x[j]=x[j],x[i]
+            x[i],x[j] = x[j],x[i]
       print(x)
 
     else:
