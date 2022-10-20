@@ -18,7 +18,7 @@ def bubblesort():
       print(x)
 
     # 降順
-    elif b==1:
+    elif b == 1:
       for i in range(0,a):
         for j in range(0,a):
           if x[i]<=x[j]:
